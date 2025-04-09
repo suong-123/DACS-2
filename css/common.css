@@ -1,0 +1,341 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.availability-form {
+    margin-top: -50px;
+    z-index: 2;
+    position: relative;
+}
+
+@media screen and (max-width: 575px) {
+    .availability-form {
+        margin-top: 25px;
+        padding: 0 35px;
+    }
+}
+
+.collapse .navbar-nav {
+    font-size: 25px;
+    padding-left: 130px;
+}
+
+.collapse .navbar-nav .nav-item {
+    padding-left: 22px;
+}
+
+.collapse .d-flex button {
+    font-size: 20px;
+}
+
+.banner {
+    position: relative;
+    background: url("../img/home/IMG_40905.png");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.banner .banner-content {
+    position: relative;
+    margin: 0px;
+    padding: 250px 0px 150px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.banner .banner-content .banner-title {
+    text-align: center;
+}
+
+.banner .banner-content .banner-title h1 {
+    font-size: 70px;
+    color: #fff;
+    letter-spacing: 0;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+    .banner .banner-content .banner-title h1 {
+        font-size: 40px;
+    }
+}
+
+.banner .banner-content .banner-title .banner-caption {
+    text-transform: none;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 13px;
+    font-size: 31px;
+    letter-spacing: 0;
+}
+
+@media (max-width: 991px) {
+    .banner .banner-content {
+        padding: 70px 0;
+    }
+}
+
+.flex-box {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    position: sticky;
+}
+
+.right {
+    margin-left: 100px;
+    width: 60%;
+    display: table;
+}
+
+.banner-title .url {
+    font-size: 23px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.banner-title .url a {
+    color: #fff;
+}
+
+.flex-box .right .btn-box a {
+    font-size: 20px;
+    font-weight: 400;
+    color: #017ea8;
+}
+
+.pname {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.room-service {
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.room-service .inner {
+    padding-bottom: 20px;
+}
+
+.room-service .inner .icon {
+    max-width: 30%;
+    line-height: 1;
+    float: left;
+    margin-right: 25px;
+    margin-top: 7px;
+}
+
+.room-service .inner .icon i {
+    font-size: 33px;
+    line-height: 33px;
+    width: 33px;
+    color: #0a0a0a;
+}
+
+.room-service .inner .content {
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.room-service .inner .content h3 {
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: none;
+    color: #383838;
+    line-height: 1.55;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+.room-service .inner .content span {
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 0px;
+    color: #747474;
+    text-transform: capitalize;
+}
+
+.room-amenities {
+    border-bottom: 2px solid #dddddd;
+}
+
+.room-amenities .inner {
+    position: relative;
+    margin: 0 0 20px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: transform 150ms ease-out, box-shadow 150ms ease-out, border-color 300ms ease-out, border-width 300ms;
+    border: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+}
+
+.room-amenities .inner .icon {
+    font-size: 35px;
+    margin: 0 16px 0 0;
+}
+
+.room-amenities .inner .icon-wrap h3 {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #848484;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.room-amenities .inner:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.1);
+    border-color: transparent;
+}
+
+.room-rules {
+    position: relative;
+    padding: 0 20px;
+    border-bottom: 2px solid #dddddd;
+}
+
+.room-rules h3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #383838;
+    text-transform: capitalize;
+}
+
+.room-rules .list-rules li {
+    position: relative;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 18px;
+    color: #656565;
+    line-height: 30.6px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.room-rules .list-rules li::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000;
+}
+
+.product-content-button {
+    position: relative;
+}
+
+.product-content-botton-content-title-item-mota {
+    display: none;
+}
+
+.name {
+    color: #16d7fe;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.custom-bg {
+    background-color: #16d7fe;
+    border: 1px solid #16d7fe;
+}
+
+.custom-bg:hover {
+    border: 1px solid #00ace6;
+    background-color: #00ace6;
+}
+
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    left: -55px;
+    margin-top: -1px;
+    background: var(#16d7fe);
+}
+
+.welcome {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #16d7fe
+}
+
+h5 {
+    margin-top: 13px;
+    margin-bottom: .5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.btn-primary {
+    color: #000;
+    background-color: #16d7fe;
+    border-color: #16d7fe
+}
+
+.btn-primary:hover {
+    color: #000;
+    background-color: #16d7fe;
+    border-color: #00ace6
+}
+
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
